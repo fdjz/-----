@@ -58,7 +58,11 @@ static NSString * const kICSColorsViewControllerCellReuseId = @"kICSColorsViewCo
         NSLog(@"%@",self.dictionary);
         self.array = @[@"常用",@"推荐"];
         self.imageDictionary = @{@"0":@[[UIImage imageNamed:@"1.png"],[UIImage imageNamed:@"2.png"]],@"1":@[[UIImage imageNamed:@"3.png"],[UIImage imageNamed:@"4.png"]]};
-    
+        
+        NSLog(@"------------------");
+        NSLog(@"------------------");
+        NSLog(@"------------------");
+        
     }
     return self;
 }
